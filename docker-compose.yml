@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  api:
+    build: api/
+    ports: 
+      - 9090:9090
+    container_name: device-flow-demo-api
+    networks: 
+      - demo-network 
+  device:
+    build: device/
+    container_name: device-flow-demo-device
+    networks: 
+      - demo-network 
+
+networks:
+  demo-network:
+    name: device-flow-demo-network
+
+  
