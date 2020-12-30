@@ -1,12 +1,12 @@
-# Project Title
+# OAuth2.0 Device Code Grant Demo for CLI app using Auth0
 
 ## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
-
+- [Solution Flow](#solution_flow)
+- [Sample Run](#sample_run)
+  
 ## About <a name = "about"></a>
 
 Simple demo for `OAuth 2.0 Device Code Grant` for a `CLI` app in action, using `Auth0` and `NodeJS`.
@@ -45,7 +45,7 @@ cd repo
 docker-compose up
 ```
 
-### Solution FLow
+## Solution Flow <a name = "solution_flow"></a>
 
 1. `Docker Compose` will start the two containers viz `API` container and `Device` container.
 2. The `API` service will start listening for new requests.
@@ -57,7 +57,7 @@ docker-compose up
 7. Once the user is done with the steps mentioned above, `Auth0` issues an `Access Token` with appropriate `scopes`.
 8. The `Device` can now make a secure `API` call.
 
-### Sample Run
+## Sample Run <a name = "sample_run"></a>
 ```
 $docker-compose up                  
 Creating network "device-flow-demo-network" with the default driver
