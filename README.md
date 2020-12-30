@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-Simple demo for `OAuth 2.0 Device Code Grant` in action, using `Auth0` and `NodeJS`.
+Simple demo for `OAuth 2.0 Device Code Grant` for a `CLI` app in action, using `Auth0` and `NodeJS`.
 
 ## Getting Started <a name = "getting_started"></a>
 
